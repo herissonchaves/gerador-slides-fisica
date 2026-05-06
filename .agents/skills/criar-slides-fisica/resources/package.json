@@ -1,0 +1,16 @@
+{
+  "name": "gerador-slides-fisica",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Resources do agente Antigravity de slides de Física — Prof. Hérisson Chaves",
+  "main": "gerar_slides.js",
+  "scripts": {
+    "build": "node gerar_slides.js"
+  },
+  "dependencies": {
+    "pptxgenjs": "^3.12.0"
+  },
+  "comments": {
+    "pptxgenjs-math": "Não é incluído por padrão. O agente usa Unicode estilizado com fonte Cambria Math. Se quiser LaTeX, rode: npm install pptxgenjs-math e siga resources/formulas-unicode.md (seção 'Quando ainda assim usar LaTeX')."
+  }
+}
