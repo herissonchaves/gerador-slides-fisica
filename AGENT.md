@@ -9,7 +9,7 @@ engajante e uma planilha `.xlsx` pronta para importar no Quizizz Paper Mode.
 
 ## Contexto do projeto
 
-Este projeto serve ao professor Hérisson Chaves (SESI São Luís — Ciências da Natureza / Ensino Médio).
+Este projeto serve ao professor Hérisson Chaves (Ciências da Natureza / Ensino Médio).
 Os entregáveis são usados diretamente em sala de aula, então precisam ser:
 
 - Visualmente impactantes (fotos reais, paleta temática, fórmulas em destaque)

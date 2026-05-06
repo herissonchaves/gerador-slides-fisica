@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # ============================================================
 # qa_visual.py — QA visual de apresentações .pptx
-# Prof. Hérisson Chaves — SESI São Luís / Ciências da Natureza
+# Prof. Hérisson Chaves — Ciências da Natureza
 #
 # Converte um .pptx em PDF (via LibreOffice headless) e depois
 # em imagens JPEG (via pdftoppm) para inspeção visual rápida.

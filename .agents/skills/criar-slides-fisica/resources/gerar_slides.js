@@ -1,6 +1,6 @@
 // ============================================================
 // gerar_slides.js — Gerador PptxGenJS para aulas de Física EM
-// Prof. Hérisson Chaves — SESI São Luís / Ciências da Natureza
+// Prof. Hérisson Chaves — Ciências da Natureza
 //
 // USO PELO AGENTE ANTIGRAVITY:
 //   1. Ler entrada/<aula>.md, extrair frontmatter e blocos ###
@@ -395,7 +395,7 @@ function montarApresentacao() {
   pptx.layout = "16x9";
 
   pptx.author = "Prof. Hérisson Chaves";
-  pptx.company = "SESI São Luís — Ciências da Natureza";
+  pptx.company = "Ciências da Natureza";
   pptx.title = `${config.topico} — ${config.serie}`;
 
   // Slide 1

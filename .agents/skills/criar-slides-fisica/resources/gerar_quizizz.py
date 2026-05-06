@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # ============================================================
 # gerar_quizizz.py — Gerador de planilha Quizizz Paper Mode
-# Prof. Hérisson Chaves — SESI São Luís / Ciências da Natureza
+# Prof. Hérisson Chaves — Ciências da Natureza
 #
 # Implementa as regras técnicas da skill global `quizizz-paper`
 # COM o override pedagógico desta skill local: todas as questões

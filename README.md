@@ -2,7 +2,7 @@
 
 Agente que converte roteiros de aula em Markdown (`.md`) em **dois entregáveis simultâneos**:
 uma apresentação PowerPoint didática (`.pptx`) e uma planilha Quizizz Paper Mode (`.xlsx`),
-para o Ensino Médio — Prof. Hérisson Chaves / SESI São Luís.
+para o Ensino Médio — Prof. Hérisson Chaves.
 
 ---
 

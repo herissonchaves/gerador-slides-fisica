@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # ============================================================
 # run.sh — Script de execução do workflow completo
-# Prof. Hérisson Chaves — SESI São Luís / Ciências da Natureza
+# Prof. Hérisson Chaves — Ciências da Natureza
 #
 # USO:
 #   ./run.sh entrada/minha_aula.md
