@@ -48,9 +48,16 @@ check_cmd() { command -v "$1" &>/dev/null && echo "   ✅ $1" || { echo "   ❌ 
 DEPS_OK=true
 check_cmd node    || DEPS_OK=false
 check_cmd python3 || DEPS_OK=false
-check_cmd libreoffice >/dev/null 2>&1 || check_cmd soffice >/dev/null 2>&1 \
-  && echo "   ✅ libreoffice" || echo "   ⚠️  libreoffice — QA visual será ignorado"
-check_cmd pdftoppm    || echo "   ⚠️  pdftoppm — QA visual será ignorado"
+if command -v libreoffice &>/dev/null || command -v soffice &>/dev/null; then
+  echo "   ✅ libreoffice"
+else
+  echo "   ⚠️  libreoffice — QA visual será ignorado"
+fi
+if command -v pdftoppm &>/dev/null; then
+  echo "   ✅ pdftoppm"
+else
+  echo "   ⚠️  pdftoppm — QA visual será ignorado"
+fi
 python3 -c "import openpyxl" 2>/dev/null && echo "   ✅ openpyxl" \
   || { echo "   ⚠️  instalando openpyxl..."; pip install openpyxl --break-system-packages -q; }
 [[ "$DEPS_OK" == "false" ]] && { echo "❌ Dependências críticas ausentes."; exit 1; }

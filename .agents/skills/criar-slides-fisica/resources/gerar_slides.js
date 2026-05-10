@@ -9,7 +9,7 @@
 //   4. Acumular cada questão Tipo F em saida/questoes_temp.json
 //   5. Rodar: node gerar_slides.js
 //
-// Saída: ../../../saida/slides_<tema>_<YYYYMMDD>.pptx
+// Saída: ../../../../saida/slides_<tema>_<YYYYMMDD>.pptx
 // ============================================================
 
 const PptxGenJS = require("pptxgenjs");

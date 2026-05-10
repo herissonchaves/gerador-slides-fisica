@@ -21,9 +21,12 @@ e gerar **dois arquivos simultâneos** em `saida/`:
 2. **Planilha Quizizz Paper Mode** (`.xlsx`) — segue as regras técnicas da skill global `quizizz-paper`,
    com **filosofia de questões sobreposta** (ver `resources/filosofia-questoes.md`)
 
-> ⚠️ **Delegação obrigatória:** antes de escrever qualquer linha de código, leia também
-> `slides-fisica-ensino-medio/SKILL.md`, `quizizz-paper/SKILL.md` e `pptx/SKILL.md` (skills globais).
-> Esta skill local **complementa e sobrepõe** essas três — não as repete.
+> ⚠️ **Delegação obrigatória:** antes de escrever qualquer linha de código, leia também as
+> skills globais abaixo. Esta skill local **complementa e sobrepõe** essas três — não as repete.
+>
+> - `~/.gemini/antigravity/skills/slides-fisica-ensino-medio/SKILL.md`
+> - `~/.gemini/antigravity/skills/quizizz-paper/SKILL.md`
+> - `~/.gemini/antigravity/skills/pptx/SKILL.md`
 
 ---
 
@@ -152,9 +155,9 @@ gravado em `saida/questoes_temp.json` no formato:
 ### Passo 6 — Executar o script
 
 ```bash
-cd .agents/skills/criar-slides-fisica/resources
-npm install --silent       # uma vez
-node gerar_slides.js
+# Rodar sempre a partir da raiz do projeto
+npm install --silent --prefix .agents/skills/criar-slides-fisica/resources   # uma vez
+node .agents/skills/criar-slides-fisica/resources/gerar_slides.js
 ```
 
 Saída: `saida/slides_<tema>_<YYYYMMDD>.pptx`
