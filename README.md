@@ -16,7 +16,6 @@ gerador-slides-fisica/
 ├── run.sh                                ← Workflow completo automatizado
 │
 ├── entrada/                              ← 📥 Depositar aqui o .md do roteiro
-│   └── exemplo_aula.md                   ← Template de referência (Pressão Hidrostática)
 │
 ├── saida/                                ← 📤 Saídas geradas pelo agente
 │   ├── slides_<tema>_<data>.pptx         ← Apresentação para o datashow
@@ -27,17 +26,15 @@ gerador-slides-fisica/
     └── skills/
         └── criar-slides-fisica/
             ├── SKILL.md                  ← Workflow detalhado (9 passos)
-            ├── resources/
-            │   ├── filosofia-questoes.md ← Regras das questões (override)
-            │   ├── paleta-cores.md       ← Tabela tema → cores
-            │   ├── tipos-slide.md        ← Layouts dos 6 tipos
-            │   ├── formulas-unicode.md   ← Tabela Unicode matemático
-            │   ├── gerar_slides.js       ← Template PptxGenJS
-            │   ├── gerar_quizizz.py      ← Gerador openpyxl
-            │   ├── qa_visual.py          ← QA visual (LibreOffice + pdftoppm)
-            │   └── package.json
-            └── examples/
-                └── exemplo_aula.md
+            └── resources/
+                ├── filosofia-questoes.md ← Regras das questões (override)
+                ├── paleta-cores.md       ← Tabela tema → cores
+                ├── tipos-slide.md        ← Layouts dos 6 tipos
+                ├── formulas-unicode.md   ← Tabela Unicode matemático
+                ├── gerar_slides.js       ← Template PptxGenJS
+                ├── gerar_quizizz.py      ← Gerador openpyxl
+                ├── qa_visual.py          ← QA visual (LibreOffice + pdftoppm)
+                └── package.json
 ```
 
 > **Importante:** o agente Antigravity ativa skills lendo `description` no frontmatter de
@@ -50,7 +47,7 @@ gerador-slides-fisica/
 
 ### 1. Prepare o roteiro da aula
 
-Crie ou edite `entrada/<minha_aula>.md` seguindo o formato do `exemplo_aula.md`:
+Crie `entrada/<minha_aula>.md` com o formato abaixo:
 
 ```markdown
 ---

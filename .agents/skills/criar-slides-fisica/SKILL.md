@@ -260,4 +260,3 @@ Reportar ao usuário com este formato:
 | `resources/gerar_slides.js` | Template PptxGenJS (preencher placeholders e rodar) |
 | `resources/gerar_quizizz.py` | Gerador openpyxl (rodar com `--help`) |
 | `resources/qa_visual.py` | QA visual (LibreOffice + pdftoppm) |
-| `examples/exemplo_aula.md` | Exemplo completo de roteiro (Pressão Hidrostática) |

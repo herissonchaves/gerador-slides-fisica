@@ -54,7 +54,6 @@ gerador-slides-fisica/
 ├── README.md                        ← documentação para humanos
 ├── run.sh                           ← script de execução do workflow
 ├── entrada/                         ← depositar aqui o .md do roteiro
-│   └── exemplo_aula.md              ← template de referência
 ├── saida/                           ← DOIS arquivos + pasta QA
 │   ├── slides_<tema>_<data>.pptx
 │   ├── quizizz_<tema>_<data>.xlsx
@@ -63,17 +62,15 @@ gerador-slides-fisica/
     └── skills/
         └── criar-slides-fisica/
             ├── SKILL.md             ← workflow detalhado (9 passos)
-            ├── resources/
-            │   ├── filosofia-questoes.md
-            │   ├── paleta-cores.md
-            │   ├── tipos-slide.md
-            │   ├── formulas-unicode.md
-            │   ├── gerar_slides.js
-            │   ├── gerar_quizizz.py
-            │   ├── qa_visual.py
-            │   └── package.json
-            └── examples/
-                └── exemplo_aula.md
+            └── resources/
+                ├── filosofia-questoes.md
+                ├── paleta-cores.md
+                ├── tipos-slide.md
+                ├── formulas-unicode.md
+                ├── gerar_slides.js
+                ├── gerar_quizizz.py
+                ├── qa_visual.py
+                └── package.json
 ```
 
 ## Skills disponíveis
@@ -87,7 +84,7 @@ gerador-slides-fisica/
 
 ## Como usar
 
-1. Salve seu roteiro de aula em `entrada/<nome>.md` (use `entrada/exemplo_aula.md` como referência).
+1. Salve seu roteiro de aula em `entrada/<nome>.md` (veja o formato esperado na Seção 1 do SKILL.md).
 2. No Antigravity, peça: *"Crie os slides da aula em entrada/<nome>.md"*.
 3. O agente irá automaticamente:
    - Ler e analisar o `.md`

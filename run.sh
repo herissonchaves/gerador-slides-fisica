@@ -15,7 +15,7 @@ set -euo pipefail
 
 if [[ $# -lt 1 ]]; then
   echo "Uso: ./run.sh <entrada/arquivo.md>"
-  echo "Exemplo: ./run.sh entrada/exemplo_aula.md"
+  echo "Exemplo: ./run.sh entrada/minha_aula.md"
   exit 1
 fi
 
